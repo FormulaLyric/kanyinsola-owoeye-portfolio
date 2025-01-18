@@ -5,10 +5,8 @@
     #mobile-nav{
         display:flex;
         position:sticky;
-        background-color: #CCB9AE;
+        background-color:#f6f0e8;
     }
-   
-
 }
 
 @media screen and (max-width:800px){
