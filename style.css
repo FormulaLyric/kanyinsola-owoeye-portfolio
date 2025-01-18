@@ -397,6 +397,9 @@ li{
   text-decoration:none;
   transition: all 0.3 ease-in-out;
  }
+nav.sticking{
+    background-color:#f6f0e8;
+  }
 
  .menu-links li{
   list-style:none;
