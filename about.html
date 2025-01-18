@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+
+        <title>About - Kanyinsola Owoeye </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel ="stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "mediaqueries.css">
+        <!--SCRIPT-->
+        <script src = "script.js"></script>
+    </head>
+
+    <body style="background-color:#f6f0e8;">
+        <nav id="desktop-nav">
+            <div class="logo">
+                <img src = "images/Logo (Website Portfolio).png" width = "50", height = "50">
+            </div>
+            <div>
+                <ul class = "nav-links">
+                    <li><a href = "Home.html" >PROJECTS</a></li>
+                    <li><a href = "About.html">ABOUT</a></li>
+                    <li><a href = "Contact.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="mobile-nav">
+            <div class="logo">
+                <img src = "images/Logo (Website Portfolio).png" width = "50", height = "50">
+            </div>
+            <div class="mobile-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href = "Home.html" onclick="toggleMenu()">PROJECTS</a></li>
+                <li><a href = "About.html" onclick="toggleMenu()">ABOUT</a></li>
+                <li><a href = "Contact.html" onclick="toggleMenu()">CONTACT ME</a></li>
+            </div>
+            </div>
+        </nav>
+        
+        <section id = "about-me">
+            <h1 class = "about-header">✣</h1>
+            <div class = "about-me-container">
+            <div class = "about-me-photo">
+                <img
+                src="./images/profile_photo.jpg"
+                alt="Project 2"
+                class="project-img"/>
+            </div>
+              <div class = "about-me-text">
+               <p>
+                Hey hey! I'm Kanyinsola (coin-so-la) Owoeye and a current Computer Engineering undergraduate based out of Houston, Texas.
+                <br><br>
+                As an aspiring engineer & analyst, I am constantly curious about (& obsessively analyze) the mechanics behind everything that impacts the human experience. Whether it's the daily forecast, my favorite musician's album, the latest F1 Grand Prix stats, or the implications of generative AI in everyday life, catch me holed up somewhere reading about it . Some of my focus areas include <b>data/financial analysis, AI engineering, </b> and <b>statistical/object-oriented programming.</b> 
+                
+                <br><br>
+                 Check out my resumé to get a full scope of my professional and academic background and let's connect!
+                </p>
+            <!--RESUME-->
+            <button
+                  class="project-btn"
+                  onclick="location.href='images/Kanyinsolas_RESUME.pdf'"
+             >resumé</button>
+            </div>
+            
+          </div>
+            
+        </section>
+
+        
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="home.html">PROJECTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </nav>
+           
+        </footer>
+    </body>
+</html>

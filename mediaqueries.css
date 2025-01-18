@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display:none;
+    }
+    #mobile-nav{
+        display:flex;
+        position:sticky;
+        background-color: #CCB9AE;
+    }
+    nav.sticking{
+        background-color:#CCB9AE;
+      }
+
+}
+
+@media screen and (max-width:800px){
+    .asset-regular{
+        font-family: "Asset", serif;
+        font-weight: 400;
+        font-size: 44px;
+        font-style: normal;
+        color:#412814;
+    }
+    .eb-garamond-uniquifier{
+        font-family: "EB Garamond", serif;
+        font-weight: 500;
+        font-size: 30px;
+        font-style: normal;
+        color:#412814;
+    }
+    .containers-flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+        gap:2rem;
+       margin-bottom:2rem;
+       margin-top:1.5rem;
+       display:flex;
+        padding:20px;
+      }
+}
+@media screen and (max-width:500px){
+    .asset-regular{
+        font-family: "Asset", serif;
+        font-weight: 400;
+        font-size: 28px;
+        font-style: normal;
+        color:#412814;
+    }
+    .containers-flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+        gap:2rem;
+       margin-bottom:2rem;
+       margin-top:1.5rem;
+       display:flex;
+        padding:20px;
+      }
+}
+
+@media screen and (max-width:900px){
+    .containers-flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+        gap:2rem;
+       margin-bottom:2rem;
+       margin-top:1.5rem;
+       display:flex;
+        padding:20px;
+      }
+}
+@media screen and (max-width:780px){
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-text{
+        text-align: center;
+        width:fit-content;
+    }
+}
+@media screen and (max-width:390px){
+    .asset-regular{
+        font-family: "Asset", serif;
+        font-weight: 400;
+        font-size: 25px;
+        font-style: normal;
+        color:#412814;
+    }
+
+}

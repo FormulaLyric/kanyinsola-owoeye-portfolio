@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+
+        <title>Home - Kanyinsola Owoeye </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel ="stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "mediaqueries.css">
+        <link rel = "stylesheet" href = "contact.css">
+        <!--SCRIPT-->
+        <script src = "script.js"></script>
+
+
+    </head>
+    <body style="background-color:#f6f0e8;">
+        <nav id="desktop-nav">
+            <div class="logo">
+                <img src = "images/Logo (Website Portfolio).png" width = "50", height = "50">
+            </div>
+            <div>
+                <ul class = "nav-links">
+                    <li><a href = "Home.html" >PROJECTS</a></li>
+                    <li><a href = "About.html">ABOUT</a></li>
+                    <li><a href = "Contact.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="mobile-nav">
+            <div class="logo">
+                <img src = "images/Logo (Website Portfolio).png" width = "50", height = "50">
+            </div>
+            <div class="mobile-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href = "Home.html" onclick="toggleMenu()">PROJECTS</a></li>
+                <li><a href = "About.html" onclick="toggleMenu()">ABOUT</a></li>
+                <li><a href = "Contact.html" onclick="toggleMenu()">CONTACT ME</a></li>
+            </div>
+            </div>
+        </nav>
+       
+        <h1 class = "contact-me-header">✣</h1>
+
+      <!--contact page-->
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST"class="contact-left">
+            
+            <input type="hidden" name="access_key" value="181b0737-029e-47d0-9eee-0b37e1253123">
+            <h2 class = "caption-contact">Name (required)</h2>
+            <input type="text"name="name"placeholder="Ex. John Doe"class="contact-inputs"required>
+            <h2 class = "caption-contact">Your Email (required)</h2>
+            <input type="email"name="email"placeholder="Ex. johndoe@gmail.com"class="contact-inputs"required>
+            <h2 class = "caption-contact">Your Message (required)</h2>
+            <textarea name="message"placeholder="Hi there!" class="contact-inputs"required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-right">
+            Would you like to connect? Feel free to use the contact form on the left or shoot me 
+            an email at <h2 class = "email-format-kk">kay.owoeye@gmail.com</h2>
+        </div>
+      </div>
+
+     <footer>
+        <nav>
+            <ul>
+                <li><a href="home.html">PROJECTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                
+            </ul>
+        </nav>
+        
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+
+        <title>Home - Kanyinsola Owoeye </title>
+        <link rel="icon" type="image/x-icon" href="/images/Logo (Website Portfolio).png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+        <!--CSS-->
+        <link rel ="stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "mediaqueries.css">
+        <!--SCRIPT-->
+        <script src = "script.js"></script>
+        
+</head>
+<body style="background-color:#f6f0e8;">
+    <nav id="desktop-nav">
+        <div class="logo">
+            <img src = "images/Logo (Website Portfolio).png" width = "50", height = "50">
+        </div>
+        <div>
+            <ul class = "nav-links">
+                <li><a href = "#projects" onclick = "smoothScroll('projects')" >PROJECTS</a></li>
+                <li><a href = "About.html">ABOUT</a></li>
+                <li><a href = "Contact.html">CONTACT ME</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">
+            <img src = "images/Logo (Website Portfolio).png" width = "50", height = "50">
+        </div>
+        <div class="mobile-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href = "#projects" onclick="toggleMenu()">PROJECTS</a></li>
+            <li><a href = "About.html" onclick="toggleMenu()">ABOUT</a></li>
+            <li><a href = "Contact.html" onclick="toggleMenu()">CONTACT ME</a></li>
+        </div>
+        </div>
+    </nav>
+    
+<div class = "home-page-titles">
+  <p1 class = "asset-regular">Kanyinsola <br> Owoeye <br></p1>
+  <p2 class = "eb-garamond-uniquifier">Financial Analysis | AI | Data Engineering  </p2>
+</div>
+<div class = "socials-container">
+        <img 
+          src = "images/LinkedIn Logo (Website Portfolio).png"
+          width="40"
+          height="40"
+          class="icon"
+          onclick="location.href='https://linkedin.com/'"
+        />
+        <img src = "images/GitHub Logo.png" 
+        width="40"
+        height="40"
+        class="icon"
+        onclick="location.href='https://github.com/FormulaLyric'"
+        />
+        <img src = "images/Tableau Icon (Website Logo).png" 
+        width="40"
+        height="40"
+        class="icon"
+        onclick="location.href='https://public.tableau.com/app/profile/kanyinsola.owoeye/vizzes'""
+        />
+</div>
+<section id = "projects"> </section>
+    <h1 class = "title">✣</h1>
+    <div class = "container-projects">
+      <div class = "containers-flex">
+        <!--project 1-->
+        <div class = "details-container">
+            <div class = "lang-btn-container">
+              JavaScript
+            </div>
+            <div class = "lang-btn-container">
+                HTML
+              </div>
+              <div class = "lang-btn-container">
+                CSS
+              </div>
+            <div class = "article-container">
+                <img
+                  src="./images/proj_01_img.png"
+                  width="100"
+                  height="65"
+                  alt="Mock Wordle Game"
+                  class="project-img"/>
+                </img>
+            </div>
+            <h2 class = "project-title">MOCK WORDLE GAME</h2>
+            
+            <div class = "button-container">
+                <button
+                  class="project-btn"
+                  onclick="location.href='https://github.com/FormulaLyric/mock-wordle-game'"
+                >
+                View code
+                </button>
+                <button
+                  class="project-btn"
+                  onclick="location.href='project_kaywordle/word-guesser-2021-FormulaLyric/index.html'"
+                >
+                View project
+            </button>
+            </div>
+        </div>
+        <!--project 2-->
+        <div class = "details-container">
+            <div class = "lang-btn-container">
+                Tableau
+            </div>
+            <div class = "lang-btn-container">
+                Excel
+          </div>
+            <div class = "article-container">
+                <img
+                  src="./images/proj_2_img.png"
+                  width="100"
+                  height="65"
+                  alt="Project 2"
+                  class="project-img"/>
+                </img>
+                
+            </div>
+            <h2 class = "project-title">VIZ: Funding for 11 Random U.S. Startups</h2>
+            <div class = "button-container">
+              <button
+                class="project-btn"
+                onclick="location.href='https://public.tableau.com/app/profile/kanyinsola.owoeye/vizzes'"
+              >
+              View project
+              </button>
+              
+          </div>
+        </div>
+        <!--project 3-->
+        <div class = "details-container">
+          <div class = "lang-btn-container">
+              Python
+          </div>
+          <div class = "lang-btn-container">
+              SQLite
+          </div>
+          <div class = "lang-btn-container">
+            Data Cleaning
+        </div>
+          <div class = "article-container">
+              <img
+                src="./images/proj3_img.png"
+                width="100"
+                height="65"
+                alt="Project 2"
+                class="project-img"/>
+              </img>
+          </div>
+          <h2 class = "project-title">Real Estate SQL : Appraisal Data Import & Table</h2>
+         
+          <div class = "button-container">
+            <button
+              class="project-btn"
+              onclick="location.href='https://github.com/FormulaLyric/real-estate-sqlite'"
+            >
+            View project
+            </button>
+            
+        </div>
+      </div>
+      
+      </div>
+    </div>
+
+
+    <!--FOOTER-->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="home.html">PROJECTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                
+            </ul>
+        </nav>
+       
+    </footer>
+
+</body>
+

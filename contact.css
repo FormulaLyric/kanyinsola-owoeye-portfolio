@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.contact-container{
+    margin-top:-50px;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.contact-left{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    gap:20px;
+}
+.contact-me-header{
+    margin-top: 50px;
+}
+.caption-contact{
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  color:#412814;
+}
+.contact-right{
+  display:flex;
+  flex-direction:column;
+  width:400px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: normal;
+  color:#412814;
+  border: 2px solid rgb(100,61,136) ; /* Border color and thickness */
+  border-radius: 25px;      /* Adjust curvature */
+  padding: 10px 20px;       /* Space around the text */
+  display: inline-block; 
+}
+.contact-left-title hr{
+    border:none;
+    width:120px;
+    height:5px;
+    background-color:beige;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.contact-inputs{
+    width:400px;
+    height:50px;
+    border:none;
+    outline:none;
+    padding-left:25px;
+    font-weight:200;
+    color:#412814;
+    border-radius:50px;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+}
+.contact-left textarea{
+
+    height:140px;
+    padding-top:15px;
+    border-radius:20px;
+}
+.contact-inputs:focus{
+    border:2px solid rgb(100,61,136);;
+}
+.contact-inputs::placeholder{
+    color:#412814;
+}
+.contact-left button{
+    display:flex;
+    align-items:center;
+    padding:15px 30px;
+    font-size:16px;
+    color:#fff;
+    gap:10px;
+    border:none;
+    border-radius:50px;
+    background:linear-gradient(270deg,#b29cc6,rgb(100,61,136));
+    cursor:pointer;
+}
+.contact-left button img{
+    height:15px;
+}
+@media(max-width:800px){
+    .contact-inputs{
+        width:80vw;
+    }
+    .contact-right{
+        display:none;
+    }
+}
